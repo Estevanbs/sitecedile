@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    font-family: Arial;
+}
+
+.menu {
+    background-color: #CA1202;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: #090D25;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #EFE70D;
+}
